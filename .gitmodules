@@ -1,6 +1,6 @@
 [submodule "blindLunchApi"]
 	path = blindLunchApi
-	url = git@github.com:TillaTheHun0/blindLunchApi.git
+	url = https://github.com/TillaTheHun0/blindLunchApi
 [submodule "blindLunchClient"]
 	path = blindLunchClient
-	url = git@github.com:TillaTheHun0/blindLunchClient.git
+	url = https://github.com/TillaTheHun0/blindLunchClient
