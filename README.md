@@ -15,6 +15,10 @@ Source code for the BlindLunch app
 6. Run ``` node server ``` or if you have nodemon, simply run ``` nodemon ``` to start locally
 7. cd into the client and run ``` npm install ``` and then ``` ionic serve ```
 
+## Pulling
+- ``` git fetch upstream --recurse-submodules  && git merge upstream/master && git submodule update --recursive ```
+- ``` git submodule update --remote --merge ```
+
 # Code Structure
 There are two main submodules in Blind Lunch, the client and server
 
