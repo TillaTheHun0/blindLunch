@@ -23,30 +23,8 @@ Source code for the BlindLunch app
 There are two main submodules in Blind Lunch, the client and server
 
 ## Server 
-The server is an express RESTful API with the following structure:
-``` 
--/api //where all the routes go
-    --/[endpoint]
-      ---index.js //exports express mini app. uses controller to fetch data in and out of model
-      ---controller.js
-      ---model.js //will be used to enforce schema and any granular firebase interactions (this could change)
--/auth
-    --/[oAuth platform]
-      ---index.js //exports the authentication
-      ---passport.js //passport config for each provider
--/config //server configuration. environmental variables, setup.
-    --/envrionment
-      ---index.js //responsible for detecting environment and merging properties and keys
-      ---development.js
-      ---production.js
-    --express.js //sets up express server defaults based on environment
-    --local.env.js
--app.js //wire express app all together and expose the app
--routes.js //all express mini apps are added as routes to main express app here. 
--index.js //export the configured app 
-
-```
+The Server structure will need to revisited, once client side interactions with firebase is more concrete
 
 ## Client
-The client structure has not been determined, but will be most likely structured like a typical Ionic app
+The client structure will be a typical Ionic App structure and handle authentication with Firebase directly. 
     
